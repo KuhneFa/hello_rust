@@ -11,4 +11,12 @@ fn main() {
 	say(&message, width, &mut writer).unwrap();
 	println!("Hello, world!");
     	use ferris_says::say;
+        
+        let v = {
+              let mut x = 1;
+	      x += 2;
+              x 
+       };
+       assert_eq!(v,3);
+       println!("Success!");
 }
