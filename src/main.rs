@@ -1,6 +1,9 @@
-use ferris_says::say;
 use std::io::{stdout, BufWriter};
 
+fn foo () -> f64
+{
+return 2.7
+}
 
 fn main() {
     	let stdout = stdout();
@@ -13,14 +16,21 @@ fn main() {
     	use ferris_says::say;
         
         let v = {
-              let mut x = 1;
+              let x = 1;
 	      x + 2
 	      // x += 2
 	      // x
+		  // Git push command
        };
        assert_eq!(v,3);
        println!("Success!");
-       euler();
+       //euler();
+	let x = 3;
+	let y:f64 = 3.1415;
+	let BAD_NAME = y *3.0;
+	while 16.0 > 15.0 {
+	println!("Pi is approximately {}.", y);
+	}
 }
 
 fn euler(){
